@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Oswald&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="left">
+     
+            <img src=Picture1.png width="150" height="50"></img>
+         
+          
+        </div>
+
+        <div class="right">
+    
+         
+            <button class="login" onclick='location.href="loggedin.html"'>
+            Login
+            </button>
+            <button class="signup" onclick='location.href="signup.html"'>
+            Sign Up
+            </button>
+
+        </div>
+      </div>
+      <hr size="1" width="100%" align="left" color="#E5E5E5">  
+      <div style="display:inline-block;">
+      <div class="frontpage">
+        <div class="text">
+     <h1>Welcome to the future of work.</h1>
+     <div class= "sub"><p>Trade your time and skills for other tasks, monetary compensation or a decentralized currency. </p></div>
+        </div>
+    
+        <div class="image">
+          <img src="zanzi2 1.svg">
+        </div>
+    
+  </div>
+  <div class="copies">
+      <button class="workers" onclick='location.href="loggedin.html"'>
+          Work as a Freelancer
+          </button>
+          <button class="hosts" onclick='location.href="loggedin.html"'>
+          Hire for Tasks
+          </button>
+  </div>
+
+  <div class="worker-block">
+      <div class="image2">
+          <img src="Picture2.png">
+        </div>
+      <div class="yellowblock">
+        <div class="small">For workers</div>
+        <div class="large">Trade </div>
+          <div class="large">tasks for </div>
+        <div class="large">XYZ.</div>
+        <div class="line">
+        <hr size="1" width="80%" align="left" color="white">  
+        </div>
+        <div class="options">
+          <div class="op">
+            <h1>Opportunity 1</h1>
+            <h1> Opportunity 2</h1>
+          </div>
+          <div class="op2">
+              <h1>Paint for crypto</h1>
+              
+              <h1>Build a website for a trip!</h1>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="worker-block">
+      
+      <div class="purpleblock">
+        <div class="small">For Hosts</div>
+        <div class="large">Trade </div>
+          <div class="large">XYZ for </div>
+        <div class="large">tasks.</div>
+        <div class="line">
+        <hr size="1" width="80%" align="left" color="white">  
+        </div>
+        <div class="options">
+          <div class="op">
+            <h1>Opportunity 1</h1>
+            <h1> Opportunity 2</h1>
+          </div>
+          <div class="op2">
+              <h1>Crypto for paint</h1>
+              
+              <h1>Give a trip for a website!</h1>
+          </div>
+      </div>
+    </div>
+    <div class="image">
+        <img src="Screen Shot 2022-02-20 at 2.26 1.png">
+      </div>
+  </div>
+</div>
+    </div>
+    <div class="foot">
+      <img src="Footer-17.svg">
+    </div>
+  </body>
+  <script>
+    const portfolioItems = document.querySelectorAll(".portfolio-item");
+    portfolioItems.forEach((portfolioItem) => {
+      portfolioItem.addEventListener("mouseover", () => {
+        portfolioItem.childNodes[1].classList.add("img-darken");
+      });
+      portfolioItem.addEventListener("mouseout", () => {
+        portfolioItem.childNodes[1].classList.remove("img-darken");
+      });
+    });
+  </script>
+
+</html>
+
+
+
+

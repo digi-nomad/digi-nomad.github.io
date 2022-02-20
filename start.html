@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Oswald&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="start.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="left">
+     
+            <img src=Picture1.png width="150" height="50"></img>
+         
+
+        </div>
+
+      </div>
+    </div>
+    <hr size="1" width="100%" align="left" color="#E5E5E5">  
+      
+    <div class= "Question">
+      <div class='big'>
+      <h1>Let's get to know your needs a bit better<h1>
+      </div>
+      <div class= 'small'>
+        <h1>I want to...</h1>
+      </div>
+    </div>
+    <div class="buttons">
+    
+    <button class="Hire" onclick="toggleText('demo')">
+        Hire for a task
+        </button>
+        <button class="Work" onclick="toggleText('demo2')">
+        
+        Work as a freelancer
+
+    </button>
+    <div class="ans">
+    <p id='demo' style='display: none'>Great! We'd like to learn more about the kinds of tasks you're looking for from our community of freelancers!</p>   
+    <p id='demo2' style='display: none'>Great! We'd like to learn more about what kind of work you'd like to do!</p>     
+    </div>
+    <div class="area">
+    <button class="Continue" onclick='location.href="start2.html"'>
+        Continue
+        </button>
+      </div>
+    
+  </div>
+
+  <script>
+    function toggleText(demo) {
+      var text = document.getElementById(demo);
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+  </script>
+  
+  </body>

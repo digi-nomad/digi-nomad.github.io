@@ -1,0 +1,192 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+.left {
+  display: flex;
+}
+@font-face {
+  font-family: SF;
+  src: url("SourceSansPro-Semibold.otf");
+}
+@font-face {
+  font-family: Eiko;
+  src: url("./PPEiko-LightItalic.otf");
+}
+@font-face {
+  font-family: Eikonormal;
+  src: url("./PPEiko-Thin.otf");
+}
+@font-face {
+  font-family: SFnormal;
+  src: url("SourceSansPro-Light.otf");
+}
+.Question {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.big {
+  font-weight: 100;
+  font-family: "Eiko";
+  font-size: 1rem;
+  color: black;
+}
+.small {
+  font-family: "SF";
+  font-size: 0.5rem;
+  color: black;
+}
+
+.Hire {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding-left: 50px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid grey;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.Work {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding-right: 50px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid grey;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Work:hover {
+  background-color: #19196d;
+  color: white;
+}
+
+.Hire:hover {
+  background-color: #19196d;
+  color: white;
+}
+.buttons {
+  gap: -2px;
+  padding-left: 100px;
+}
+.ans {
+  font-family: "SF";
+}
+.area {
+  padding-top: 200px;
+  padding-left: 1200px;
+}
+.Continue {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  height: 65px;
+  font-size: 1rem;
+  border: 3px white;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #19196d;
+  color: white;
+}
+.box {
+  display: flex;
+  padding-left: 150px;
+}
+
+.l {
+  background-color: #19196d;
+  width: 604px;
+  height: 404px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.r {
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid grey;
+}
+.big2 {
+  font-family: "Eiko";
+  font-size: 2rem;
+  color: black;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 75px;
+  padding-bottom: 10px;
+}
+.head {
+  font-family: "Eikonormal";
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 100px;
+}
+
+.tail {
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 100px;
+  font-family: "SFnormal";
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: white;
+}
+
+.line {
+  padding-top: 70px;
+  padding-left: 70px;
+  font-family: "SF";
+  font-size: 1.5rem;
+  color: black;
+}
+
+.line2 {
+  padding-left: 80px;
+  font-family: "SF";
+  font-size: 0.5rem;
+  color: black;
+}
+
+#large {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+.shift {
+  padding-left: 70px;
+}
+.back {
+  padding-top: 20px;
+}
+.section {
+  padding: 20px;
+  display: flex;
+  gap: 1200px;
+}
+.choice {
+  font-family: "Eikonormal";
+  font-size: 3rem;
+  color: black;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 100px;
+}
+
+h2 {
+  font-family: PP Eiko Italic;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 55px;
+}
