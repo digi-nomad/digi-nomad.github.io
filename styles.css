@@ -1,0 +1,506 @@
+.frontpage {
+  height: 300px;
+  display: flex;
+  align-items: left;
+  font-size: 1.5rem;
+  justify-content: left;
+  font-family: "Eiko", sans-serif;
+  gap: 270px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.text {
+  width: 400px;
+}
+.image {
+  flex-basis: 20%;
+  max-width: 300px;
+  padding-right: 200px;
+}
+.image2 {
+  flex-basis: 20%;
+  max-width: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.copies {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-family: "SF", sans-serif;
+
+  padding-left: 150px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  gap: 30px;
+}
+.sub {
+  font-family: "SF";
+  font-size: 1.3rem;
+}
+.worker-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.yellowblock {
+  background-color: #fdb73e;
+  width: 600px;
+  height: 500px;
+}
+.purpleblock {
+  background-color: #4a4a68;
+  width: 600px;
+  height: 500px;
+}
+.small {
+  font-family: "SF", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding-top: 40px;
+  padding-left: 50px;
+  font-size: 1.5rem;
+  color: white;
+}
+@font-face {
+  font-family: SF;
+  src: url("SourceSansPro-Semibold.otf");
+}
+@font-face {
+  font-family: Eiko;
+  src: url("./PPEiko-Medium.otf");
+}
+.line {
+  padding-left: 50px;
+}
+.op {
+  gap: 72px;
+  display: flex;
+  font-size: 0.6rem;
+  font-family: "SF";
+  color: white;
+  align-items: left;
+  padding-left: 50px;
+}
+.op2 {
+  gap: 60px;
+  display: flex;
+  font-size: 0.6rem;
+  font-family: "SF";
+  color: white;
+  align-items: left;
+  padding-left: 50px;
+}
+.large {
+  font-family: "Eiko", sans-serif;
+  font-weight: thin;
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 3.5rem;
+
+  color: white;
+}
+.signup {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding: 6px;
+  width: 100px;
+  border: 3px white;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #19196d;
+  color: white;
+}
+.login {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding: 6px;
+  width: 100px;
+  border: 3px white;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: white;
+  color: #19196d;
+}
+.letsgo {
+  font-family: "SF", sans-serif;
+  text-align: center;
+
+  padding-left: 10px;
+  width: 120px;
+  height: 50px;
+  border: 3px white;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #19196d;
+  color: white;
+  font-size: 1rem;
+}
+.loc {
+  padding-left: 134px;
+}
+.loc2 {
+  padding-left: 0px;
+}
+.self {
+  font-family: "SF", sans-serif;
+  font-size: 1.2rem;
+}
+.signqs {
+  font-family: "SF", sans-serif;
+  font-size: 1.5rem;
+}
+.workers {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding: 13px;
+  width: 250px;
+  border: 3px white;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background-color: #19196d;
+  color: white;
+}
+.hosts {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding: 10px;
+  width: 250px;
+  border: 3px solid #19196d;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background-color: white;
+  color: #19196d;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.navbar > .left > div {
+  margin-right: 20px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.navlink {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.navlink a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.navlink:hover {
+  border-bottom: 1px solid black;
+}
+.navlink a:hover {
+  color: black;
+}
+.portfolio-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+.portfolio-item {
+  position: relative;
+}
+.portfolio-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 350px;
+  width: 100%;
+}
+.image-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.image-text-wrapper .subtitle {
+  font-weight: 600;
+  transition: 0.5s;
+  color: transparent;
+}
+.image-text-wrapper:hover .subtitle {
+  font-weight: 1000;
+  font-size: 2rem;
+
+  color: white;
+}
+
+.img-darken {
+  transition: 0.5s;
+  filter: brightness(10%);
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile-image-wrapper img {
+  width: 100%;
+}
+.profile-content {
+  padding: 30px;
+}
+.profile-content h1 {
+  color: lightseagreen;
+}
+.list {
+  font-size: 3rem;
+  color: #8a8a8a;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  .hamburger {
+    display: none;
+  }
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover {
+  color: #482ff7;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #482ff7;
+}
+
+@media only screen {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    z-index: 1000;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+#large {
+  height: 100px;
+  width: 300px;
+}
+
+hr {
+  background-color: #dcdcdc;
+  height: 1px;
+  border: none;
+}
+
+#bodymed {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+input[type="submit"] {
+  font-family: "SF", sans-serif;
+  text-align: center;
+  padding: 6px;
+  width: 100px;
+  border: 3px white;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #19196d;
+  color: white;
+}
+
+input[type="text"],
+select {
+  width: 330px;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#bodybold {
+  font-family: SF Pro Text;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+#labelcheck {
+  font-family: SF Pro Text;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#section {
+  height: 558px;
+  width: 976px;
+  left: 2rem;
+  top: 236px;
+  border-radius: 8px;
+  padding-left: 140px;
+  padding-top: 30px;
+}
+
+#footer {
+  padding-top: 100px;
+}
+
+.column {
+  width: 30%;
+  padding-right: 24px;
+  margin: 5px;
+}
+
+/* Clear floats after the columns */
+.row {
+  content: "";
+  display: grid;
+  grid-template-columns: 410px 410px 400px;
+}
+
+#rewards:hover {
+  outline: 2px solid #19196d;
+  border-radius: 8px;
+}
+
+.subtitle2 {
+  font-family: SourceSansPro-Semibold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  /* Grey 400 */
+
+  color: #606062;
+}
+
+.row2 {
+  content: "";
+  display: grid;
+  grid-template-columns: 410px 600px;
+}
+
+.row3 {
+  content: "";
+  display: grid;
+  grid-template-columns: 630px 630px;
+}
+
+.font {
+  font-family: "SF";
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+.foot {
+  padding-left: 30px;
+}
+.smallfont {
+  font-family: "SF";
+  font-size: 0.75rem;
+  padding-bottom: 20px;
+  color: grey;
+}
